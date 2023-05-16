@@ -9,18 +9,6 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p,  a, img, ol, ul, li, form, foo
     
 }
 
-@font-face {
-    font-family: "Exo2";
-    src: url(public/fonts/Exo2-Regular.ttf) format("truetype");
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "Exo2-SemiBold";
-    src: url(public/fonts/Exo2-SemiBold.ttf) format("truetype");
-    font-style: normal;
-}
-
 /* Переменные цветов */
 :root {
     --orange: #FDA133;
@@ -296,3 +284,14 @@ html{
 }
 
 
+@font-face {
+    font-family: "Exo2";
+    src: url(../fonts/Exo2-Regular.ttf) format("truetype");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Exo2-SemiBold";
+    src: url(../fonts/Exo2-SemiBold.ttf) format("truetype");
+    font-style: normal;
+}
